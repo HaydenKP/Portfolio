@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: system-ui;
+    background-color: rgb(27, 27, 27);
 }
 
 .btn-group {
@@ -10,7 +11,7 @@ body {
 
 .btn {
     background-color: transparent;
-    color: black;
+    color: white;
     border: none;
     font-weight: 700;
     margin-top: 10px;
@@ -22,7 +23,7 @@ body {
 .btn:focus,
 .btn:hover {
     background-color: transparent !important;
-    color: black !important;
+    color: white !important;
 }
 
 .dropdown-menu {
@@ -34,16 +35,12 @@ body {
     color: black;
 }
 
-.dropdown-menu a:hover {
-    color: #1500FB;
-}
-
 .top-div {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: rgb(27, 27, 27)
 }
 
 .intro {
@@ -53,12 +50,12 @@ body {
 
 .intro h1 {
     font-size: 60px;
-    color: black;
+    color: white;
     font-weight: 700;
 }
 
 .top-div h2{
-    color: #1500FB;
+    color: #D13639;
     font-weight: 600;
     padding-left: 5px;
 }
@@ -99,7 +96,7 @@ body {
     background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
     animation: morph 8s ease-in-out infinite;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    outline: 4px solid #1500FB;
+    outline: 4px solid white;
     height: 300px;
     transition: all 1s ease-in-out;
     width: 220px;
@@ -107,14 +104,14 @@ body {
 }
 
 #about {
+    background-color: rgb(27, 27, 27);
     text-align: center;
     width: 100%;
-    background: linear-gradient(to bottom, #1500FB 65%, white 50%);
     margin-bottom: 10%;
 }
 
 #about-background {
-    background-color: #1500FB;
+    background: radial-gradient(#0A2327, #0A0A0A);
     width: 100%;
     height: 100%;
     padding-bottom: 10%;
@@ -154,7 +151,7 @@ body {
 #column1 {
     display: flex;
     flex-direction: column;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 10px 10px;
     background-color: white;
     padding: 50px 10px 50px 10px;
 }
@@ -165,7 +162,7 @@ body {
 }
 
 .background-circle {
-    background-color: #FF8E00;
+    background-color: #135964;
     position: relative;
     margin-right: auto;
     margin-left: auto;
@@ -180,7 +177,7 @@ body {
 #columnh2 {
     margin-top: 50px;
     font-size: 20px;
-    color: #1500FB;
+    color: #135964;
     font-weight: 700;
 }
 
@@ -191,14 +188,14 @@ body {
 #tools-title {
     margin-top: 50px;
     font-size: 20px;
-    color: #000bff;
+    color: #135964;
     font-weight: 700;
 }
 
 .projectsTitle {
     margin-top: 100px;
     text-align: center;
-    color: #1500FB;
+    color: white;
     font-weight: 700;
 }
 
@@ -206,7 +203,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: #000bff;
+    background: radial-gradient(#0A2327, #0A0A0A);
     justify-content: center;
     padding: 5%;
 }
